@@ -1,12 +1,15 @@
 import './App.css';
-import mainCard from './components/mainCard'
+import dpsCard from './components/dpsCard'
+import overallDmg from './components/overallDmg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          <mainCard>mainCard component</mainCard>
+          <dpsCard>dpsCard component</dpsCard>
+          <br/>
+          <overallDmg>overallDmg component</overallDmg>
         </p>
       </header>
     </div>
