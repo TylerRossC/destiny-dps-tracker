@@ -14,15 +14,15 @@ const DpsCard = () => {
     <div> 
 
         <Card className="dps-card">
-      <Card.Header>Name of encounter/boss</Card.Header>
+      <Card.Header className="header">Name of encounter/boss</Card.Header>
       <Card.Body>
-        <Card.Title> DPS (all weapons and abilities)</Card.Title>
-        <Card.Text>
+        <Card.Title className="title"> DPS (all weapons and abilities)</Card.Title>
+        <Card.Text className="text">
           DPS HERE
         </Card.Text>
         <Button variant="primary">Reset</Button>
       </Card.Body>
-      <Card.Footer className="text-muted">"Eyes up guardian"</Card.Footer>
+      <Card.Footer className="footer">"Eyes up guardian"</Card.Footer>
     </Card>
 
   </div>

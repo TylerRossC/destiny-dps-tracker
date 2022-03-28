@@ -15,15 +15,15 @@ const OverallDmgCard = () => {
     <div> 
     
     <Card className="dmg-card">
-      <Card.Header>Name of encounter/boss</Card.Header>
+      <Card.Header className="header">Name of encounter/boss</Card.Header>
       <Card.Body>
-        <Card.Title>Total Damage</Card.Title>
-        <Card.Text>
+        <Card.Title className="title">Total Damage</Card.Title>
+        <Card.Text className="text">
           TOTAL DAMAGE HERE
         </Card.Text>
         <Button variant="primary">Reset</Button>
       </Card.Body>
-      <Card.Footer className="text-muted">"Throw more grenades!"</Card.Footer>
+      <Card.Footer className="footer">"Throw more grenades!"</Card.Footer>
     </Card>
     
     </div>

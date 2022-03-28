@@ -2,5 +2,26 @@
     background-color: #000;
     opacity: .5;
     margin: auto;
-    width: 30%
+    width: 30%;
+    
+}
+
+.header {
+    color: white;
+    
+}
+
+.title {
+    color: white;
+    
+}
+
+.text {
+    color: white;
+    
+}
+
+.footer {
+    color: white;
+    
 }
