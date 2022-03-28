@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Button } from 'react-bootstrap'
+import './DpsCard.css'
 
 const DpsCard = () => {
   
@@ -13,7 +14,7 @@ const DpsCard = () => {
     <div> 
 
         <Card className="dps-card">
-      <Card.Header>DPS Card</Card.Header>
+      <Card.Header>Name of encounter/boss</Card.Header>
       <Card.Body>
         <Card.Title> DPS (all weapons and abilities)</Card.Title>
         <Card.Text>

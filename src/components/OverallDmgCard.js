@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Button } from 'react-bootstrap'
+import './OverallDmgCard.css'
 
 const OverallDmgCard = () => {
   
@@ -14,7 +15,7 @@ const OverallDmgCard = () => {
     <div> 
     
     <Card className="dmg-card">
-      <Card.Header>Overall Damage Card</Card.Header>
+      <Card.Header>Name of encounter/boss</Card.Header>
       <Card.Body>
         <Card.Title>Total Damage</Card.Title>
         <Card.Text>
